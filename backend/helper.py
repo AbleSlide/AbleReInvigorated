@@ -149,3 +149,20 @@ def getLinks(df, output_transcript, arrInds):
 def filterLinks(vid_length, df, output_transcript, arrInds, is_article=False):
     if(is_article):
         arrNum = makeNumArr(arrInds)
+        text = " "
+        for i in range(3):
+            text += f"Quote {i+1}: "  + df['content'][arrNum[i]-1] + "\n"
+        return text
+    else:
+        count = 0
+        ratio = 0.116
+        capped = min(int(ratio*vid_length/60), 10)
+
+        links = getLinks(df, output_transcript, arrInds)
+        fin_links = []
+
+        while(count <= capped):
+            fin_links.append(links[count])
+            count += 1 
+        
+        return fin_links
