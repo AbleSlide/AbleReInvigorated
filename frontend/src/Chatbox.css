@@ -14,4 +14,12 @@
     height: 40px;
     width: 50%;
     border:0;
-    bord
+    border-radius: 10px;
+}
+
+#questionTextInput {
+    
+    margin-right: 40px;
+    color: #e0e0e0;
+    font-size: larger;
+    font-family:Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,U
