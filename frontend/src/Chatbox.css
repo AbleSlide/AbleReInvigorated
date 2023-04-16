@@ -2,4 +2,16 @@
     background-color:#282828;
     min-height: 500px;
     width: 100%;
-   
+    position: absolute;
+    margin: 0;
+    left: 0;
+    padding: 0;
+}
+
+.questionInput {
+    margin-left: 25%;
+    background-color: #353535;
+    height: 40px;
+    width: 50%;
+    border:0;
+    bord
