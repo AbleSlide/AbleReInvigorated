@@ -27,3 +27,18 @@
     height: 30px;
     width: 85%;
     border:0;
+}
+
+#questionTextInput:focus {
+    outline: none;
+}
+
+.questionButton:hover {
+    cursor:pointer;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8); 
+}
+
+.Examples {
+    margin: auto;
+    margin-top: 50px;
+    wi
