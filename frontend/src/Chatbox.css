@@ -54,4 +54,11 @@
 }
 
 .ExampleBox:hover {
-    background-colo
+    background-color:#171717;
+    cursor:pointer;
+}
+
+.ExampleText {
+    font-size:18px;
+    margin-top:10px;
+}
