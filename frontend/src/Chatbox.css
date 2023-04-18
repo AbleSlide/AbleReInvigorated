@@ -41,4 +41,17 @@
 .Examples {
     margin: auto;
     margin-top: 50px;
-    wi
+    width:90%;
+}
+
+.ExampleBox {
+    display: inline-flex;
+    margin: 10px;
+    width:280px;
+    height:80px;
+    border-radius: 10px;
+    background-color:#353535;
+}
+
+.ExampleBox:hover {
+    background-colo
