@@ -16,4 +16,9 @@ function Chatbox(args) {
     }
     function askQuestion() {
         // Ask question
-        let text = questionRef.cur
+        let text = questionRef.current.value;
+        questionRef.current.value = "";
+        setChat(oldArray => [["Question", text, []], ...oldArray]);
+        const requestOptions = {
+          method: 'POST',
+        
