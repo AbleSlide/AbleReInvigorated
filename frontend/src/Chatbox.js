@@ -7,4 +7,13 @@ function Chatbox(args) {
     const questionRef = useRef();
     const [chat, setChat] = useState([]);
     function setQuestion(e) {
-        questionRef.current.value = e.currentTarge
+        questionRef.current.value = e.currentTarget.id;
+    }
+    function handleQuestionEnter(e) {
+        if (e.key === 'Enter') {
+          askQuestion();
+        }
+    }
+    function askQuestion() {
+        // Ask question
+        let text = questionRef.cur
