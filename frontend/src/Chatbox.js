@@ -26,4 +26,11 @@ function Chatbox(args) {
         };
         fetch(args.endpoint + '/ask', requestOptions)
           .then(response => response.json())
-       
+          .then(data => {
+            setChat(oldArray => [["Answer", data.answer, data.stamps], ...oldArray]);
+          });
+    }
+	return (
+		<div className="chatbox">
+            <div className="questionInput">
+                <input id="questio
