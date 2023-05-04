@@ -33,4 +33,6 @@ function Chatbox(args) {
 	return (
 		<div className="chatbox">
             <div className="questionInput">
-                <input id="questio
+                <input id="questionTextInput" type="text" ref={questionRef} onKeyDown={handleQuestionEnter}/>
+                <FiSend className="questionButton" onClick={askQuestion} size= "20px" style= {{
+             
