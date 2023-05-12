@@ -42,4 +42,8 @@ function Chatbox(args) {
                 {
                     chat.length > 0 ? 
                     chat.map((value, index) => {
-      
+                    return (
+                        <QandA key={index} playerRef={args.playerRef} setPlaying={args.setPlaying} type={value[0]} text={value[1]} stamps={value[2]}/>
+                    )
+                    }) : 
+  
