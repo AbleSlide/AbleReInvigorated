@@ -35,4 +35,11 @@ function Chatbox(args) {
             <div className="questionInput">
                 <input id="questionTextInput" type="text" ref={questionRef} onKeyDown={handleQuestionEnter}/>
                 <FiSend className="questionButton" onClick={askQuestion} size= "20px" style= {{
-             
+                    marginTop: "10px"
+                }}/>
+            </div>
+            <div className="QandA">
+                {
+                    chat.length > 0 ? 
+                    chat.map((value, index) => {
+      
