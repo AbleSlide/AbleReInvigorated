@@ -46,4 +46,6 @@ function Chatbox(args) {
                         <QandA key={index} playerRef={args.playerRef} setPlaying={args.setPlaying} type={value[0]} text={value[1]} stamps={value[2]}/>
                     )
                     }) : 
-  
+                    <div className="Examples">
+                        <div className="ExampleBox" id="What are the main points of the video? "onClick={setQuestion}>
+                            <p className="Exa
