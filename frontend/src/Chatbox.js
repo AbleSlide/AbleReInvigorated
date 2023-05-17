@@ -48,4 +48,9 @@ function Chatbox(args) {
                     }) : 
                     <div className="Examples">
                         <div className="ExampleBox" id="What are the main points of the video? "onClick={setQuestion}>
-                            <p className="Exa
+                            <p className="ExampleText">
+                                "What are the main points of the video?" 
+                                →
+                            </p>
+                        </div>
+                        <div cl
