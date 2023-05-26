@@ -63,4 +63,13 @@ function Chatbox(args) {
                             <p className="ExampleText">
                                 "Where does the video take place?" 
                                 →
-                   
+                            </p>
+                        </div>
+                    </div>
+                }
+            </div>
+      </div>
+	);
+}
+
+export default Chatbox;
