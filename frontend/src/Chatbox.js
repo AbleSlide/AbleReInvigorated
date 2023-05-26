@@ -55,4 +55,8 @@ function Chatbox(args) {
                         </div>
                         <div className="ExampleBox" id="Please summarize the video for me." onClick={setQuestion}>
                             <p className="ExampleText">
-                                "Please summari
+                                "Please summarize the video for me." 
+                                →
+                            </p>
+                        </div>
+                        <div className="ExampleBox" id="Where does the video
