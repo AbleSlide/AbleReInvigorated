@@ -59,4 +59,8 @@ function Chatbox(args) {
                                 →
                             </p>
                         </div>
-                        <div className="ExampleBox" id="Where does the video
+                        <div className="ExampleBox" id="Where does the video take place?" onClick={setQuestion}>
+                            <p className="ExampleText">
+                                "Where does the video take place?" 
+                                →
+                   
