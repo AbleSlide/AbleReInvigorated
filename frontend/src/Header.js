@@ -7,4 +7,9 @@ function Header() {
 		<div className = "header">
             <div className = "logo">
                 <a href="/">
-                   
+                    <img src="/logo512.png" alt="Logo" style={{
+                        width: "50px", height:"50px"
+                    }}/>
+                </a>
+            </div>
+            <div className = "github"
