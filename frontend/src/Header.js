@@ -12,4 +12,10 @@ function Header() {
                     }}/>
                 </a>
             </div>
-            <div className = "github"
+            <div className = "github">
+                <a style = {{ color: 'inherit' }} href="https://github.com/sopwithcamel110/ReAInvent">
+                    <BsGithub size = "35px"/>
+                </a>
+            </div>
+            <div className = "copyright">
+           
