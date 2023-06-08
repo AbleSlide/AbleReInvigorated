@@ -18,4 +18,10 @@ function Header() {
                 </a>
             </div>
             <div className = "copyright">
-           
+                <h5>© ReAInvent 2023</h5>
+            </div>
+        </div>
+	);
+}
+
+export default Header;
