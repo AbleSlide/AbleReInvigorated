@@ -48,4 +48,16 @@ python-dateutil==2.8.2
 python-dotenv==0.21.1
 pytube==12.1.2
 pytz==2022.7.1
-pywhisper
+pywhisper==1.0.6
+PyYAML==6.0
+regex==2022.10.31
+replicate==0.4.0
+requests==2.28.2
+semantic-version==2.10.0
+setuptools-rust==1.5.2
+six==1.16.0
+soupsieve==2.4
+tiktoken==0.2.0
+tokenizers==0.13.2
+torch==1.13.1
+tqdm=
